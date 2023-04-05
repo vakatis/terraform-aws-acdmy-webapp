@@ -10,7 +10,7 @@ This module also demonstrates how [`templatefile()`](https://developer.hashicorp
 ```hcl
 module "webapp" {
   source     = "app.terraform.io..."
-  version    = "x.x.x"
+  version    = "1.0.1"
   public_key = "-----BEGIN PUBLIC KEY----- MIICIjANBgkqh..."
 }
 
